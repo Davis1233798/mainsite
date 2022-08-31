@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
+@import url("https://fonts.googleapis.com/css?family=VT323");
+
+.main{
+background-color: dimgray;
+    display: flex;
+    justify-content: space-around;
+}
+.header-icon{
+ display: flex;
+ border-radius: 50px;
+ height: 5rem;
+ width: 5rem;
+}
+.functions{
+
+font-family:"Press Start 2P" ;
+font-size: 10px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+.function-button{ 
+    height: auto;
+    width: auto;
+    margin-right: 5em;
+}
+.function-button:hover{
+ background-color: yellow;
+}
